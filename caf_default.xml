@@ -4,6 +4,9 @@
 <remote name="pixel"
         fetch="https://github.com/PixelExperience-P/" />
 
+<remote name="aryan"
+        fetch="https://github.com/AryanPatidar/" />
+
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom_audio" remote="pixel" revision="pie-caf-8998" />
   <project path="hardware/qcom/display-caf/msm8998" name="hardware_qcom_display" remote="pixel" revision="pie-caf-8998" />
@@ -11,6 +14,11 @@
 
   <!-- bt -->
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="pixel" revision="pie-caf" />
+
+  <!-- X00TD -->
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aryan" revision="xtended" />
+  <project path="vendor/asus" name="vendor_asus" remote="aryan" revision="xtended" />
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="aryan" revision="xtended" />
 
   <!--Keymaster -->
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="pixel" revision="pie" />
