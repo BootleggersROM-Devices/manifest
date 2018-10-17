@@ -36,6 +36,10 @@
   <!-- Ril -->
   <project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="pixel" revision="pie-caf" />
 
+  <!-- Sepolicy -->
+  <project path="system/sepolicy" name="system_sepolicy" remote="aryan" revision="p" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aryan" revision="xtended" />
+
   <!-- Wlan -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixel" revision="pie" />
   <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="pixel" revision="pie-caf" />
