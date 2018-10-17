@@ -72,7 +72,6 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="xtended" />  
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="xtended" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" /> 
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="xtended" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="xtended" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="xtended" />
   <project path="packages/apps/Xtensions" name="msm_xtended_Xtensions" remote="xtended" />
