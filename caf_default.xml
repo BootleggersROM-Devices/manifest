@@ -2,7 +2,7 @@
 <manifest>
 
 <remote name="pixel"
-        fetch="https://github.com/PixelExperience-P/" />
+        fetch="https://github.com/PixelExperience/" />
 
 <remote name="aryan"
         fetch="https://github.com/AryanPatidar/" />
