@@ -11,12 +11,12 @@
         fetch="https://github.com/AryanPatidar/" />
 
   <!-- HardWare QCOM -->
-  <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio-caf-msm8998" remote="nos" revision="p" />
-  <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display-caf-msm8998" remote="nos" revision="p" />
-  <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media-caf-msm8998" remote="nos" revision="p" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="custom_audio_hal_msm8998" remote="aryan" revision="lineage-16.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="custom_display_hal_msm8998" remote="aryan" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="custom_media_hal_msm8998" remote="aryan" revision="lineage-15.1-caf-8998" />
 
   <!-- bt -->
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="pixel" revision="pie-caf" />
+  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom" remote="aryan" revision="pie-caf" />
 
   <!-- X00TD -->
   <project path="device/asus/X00TD" name="device_asus_X00TD" remote="aryan" revision="xtended" />
@@ -49,13 +49,14 @@
   <!-- Vendors -->
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aryan" revision="pie" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="aryan" revision="pie" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aryan" revision="p" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="aryan" revision="p" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="aryan" revision="pie" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="aryan" revision="p" >
     <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
   </project>
 
   <!-- System QCOM Softapp -->
-  <project path="system/qcom" name="system_qcom" remote="pixel" revision="pie" />
+  <project path="system/qcom" name="system_qcom" remote="aryan" revision="pie" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aryan" revision="9.0" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="lineage-16.0" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="lineage-16.0" />
